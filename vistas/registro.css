@@ -1,0 +1,72 @@
+/* --- Layout general --- */
+body {
+    font-family: system-ui, sans-serif;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+  }
+  #app {
+    width: 100%;
+    max-width: 380px;
+    margin-top: 40px;
+  }
+  
+  /* --- Encabezado --- */
+  .encabezado {
+    background: #2196f3;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+    border-radius: 6px 6px 0 0;
+  }
+  
+  /* --- Formulario --- */
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #fff;
+    padding: 16px;
+    border: 1px solid #ddd;
+  }
+  .formulario input,
+  .formulario button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .formulario button {
+    background: #2196f3;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* --- Lista de registros --- */
+  .lista {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+  }
+  .fila {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 16px;
+    border-top: 1px solid #eee;
+  }
+  .fila button {
+    background: #e53935;
+    color: #fff;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* --- Pie de página --- */
+  .pie {
+    text-align: center;
+    font-size: 12px;
+    color: #818181;
+    padding: 8px 0;
+  }
+  
